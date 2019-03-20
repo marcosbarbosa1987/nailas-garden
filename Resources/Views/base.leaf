@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <title>
+            Naila´s Garden
+        </title>
+        
+        <style>
+            .container {
+                display: flex;
+                flex-direction:column;
+            }
+        
+        .menu {
+            display:flex;
+        }
+        
+        ul {
+            list-style:none;
+        }
+        
+        .menu li {
+            width: 100 px;
+            padding: 2 px;
+            margin: 2 px;
+            color: white;
+            text-align: center;
+            background-color: gray;
+            
+        }
+        
+        img {
+            width: 200 px;
+            height: 200 px;
+            margin: 10 px;
+        }
+        </style>
+        
+    </head>
+    
+    <body>
+    
+        <h1> Naila´s Garden </h1>
+        
+        <div class="container">
+            <div>
+                <ul class="menu">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/add-new-dish">New Dish</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        #get(content)
+        
+    </body>
+</html>
